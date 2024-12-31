@@ -3,4 +3,4 @@ pandas
 numpy
 pillow
 deepface
-opencv-python 
+opencv-python-headless  # opencv-python 대신 headless 버전 사용
