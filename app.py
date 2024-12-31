@@ -10,12 +10,11 @@ if uploaded_file is not None:
    
     image = Image.open(uploaded_file)
     image_array = np.array(image)
- 
+
     with st.spinner('얼굴을 감지하는 중입니다...'):
         faces = DeepFace.analyze(img_path=image_array,
                                 actions=['age'],
                                 detector_backend='retinaface')
-    
     for face in faces:
         x, y, w, h = face['region']['x'], face['region']['y'], face['region']['w'], face['region']['h']
         cv2.rectangle(image_array, (x, y), (x+w, y+h), (0, 255, 0), 2)

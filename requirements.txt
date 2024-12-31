@@ -1,6 +1,10 @@
+
 streamlit
 pandas
 numpy
 pillow
-deepface
-opencv-python-headless  # opencv-python 대신 headless 버전 사용
+opencv-python-headless
+tensorflow==2.13.0
+keras==2.13.1
+deepface==0.0.79
+retina-face==0.0.13
