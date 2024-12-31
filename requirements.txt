@@ -4,7 +4,7 @@ pandas
 numpy
 pillow
 opencv-python-headless
-tensorflow==2.13.0
-keras==2.13.1
-deepface==0.0.79
-retina-face==0.0.13
+tensorflow
+keras
+deepface
+retina-face
