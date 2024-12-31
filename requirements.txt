@@ -8,3 +8,4 @@ tensorflow
 keras
 deepface
 retina-face
+tf-keras
